@@ -1,15 +1,13 @@
-
 var newArray = [77, 82, 9]
 newArray[1]
 // result: 82
 
-typeof(123/12) == "number"
+typeof(123 / 12) == "number"
 // result: true
 
-if (string == "Hello"){
+if (string == "Hello") {
   true;
-}
-else{
+} else {
   false;
 }
 // true
@@ -21,8 +19,8 @@ emptyArray = []
 // []
 myArray.length;
 // 3
-for (var n=0, l = myArray.length; n<l; n++) {
-        emptyArray.push(myArray[n]);
+for (var n = 0, l = myArray.length; n < l; n++) {
+  emptyArray.push(myArray[n]);
 }
 // 3
 // calling emptyArray ==> ["John", "Bruce", "William"]
